@@ -3,14 +3,27 @@ html {
   scroll-behavior: smooth;
   width: 100%;
   max-width: 100%;
-  font-size: 1.2rem;
+  font-size: 11px;
   min-height: 100% !important;
   color: #333232 !important;
 }
 
-h1 {
-  font-size: 0.5rem;
-  margin: auto;
+.color-blue {
+  color: #27b6c6;
+}
+
+.header {
+  background-image: url("/images/banner-climatisation-aimargues-froid-chaud.jpeg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header a {
+  transition: all 300ms;
+}
+.header a:hover {
+  transform: scaleX(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
