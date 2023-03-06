@@ -24,13 +24,20 @@ nav a {
 }
 nav a:hover {
   background-color: #fff;
-  color: #0f1348 !important;
+  color: #18324c !important;
   font-weight: 600;
 }
 
 section > div {
   margin-top: -3rem;
   column-gap: 5%;
+}
+section > div .card {
+  border-bottom: 3px solid #27b6c6;
+}
+section > div .card:hover {
+  background-color: #18324c !important;
+  color: #fff;
 }
 section > div img {
   padding: 0.8rem;

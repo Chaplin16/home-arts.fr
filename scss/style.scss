@@ -26,7 +26,7 @@ nav{
         cursor: pointer;
         &:hover{
             background-color: #fff;
-            color: #0f1348!important;
+            color: $color-blue-dark!important;
             font-weight: 600;
             
         }
@@ -36,6 +36,13 @@ nav{
 section > div{
     margin-top: -3rem;
     column-gap: 5%;
+    .card{
+        border-bottom: 3px solid $color-blue;
+        &:hover{
+            background-color: $color-blue-dark!important;
+            color: #fff;
+        }
+    }
     & img{
         padding: 0.8rem;
     }
