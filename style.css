@@ -28,7 +28,7 @@ nav a:hover {
   font-weight: 600;
 }
 
-.service {
+main > div {
   margin-top: -3rem;
   column-gap: 5%;
 }
