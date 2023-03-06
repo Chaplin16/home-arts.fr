@@ -12,18 +12,25 @@ html {
   color: #27b6c6;
 }
 
-.header {
+nav {
   background-image: url("/images/banner-climatisation-aimargues-froid-chaud.jpeg");
   height: 250px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.header a {
-  transition: all 300ms;
+nav a {
+  cursor: pointer;
 }
-.header a:hover {
-  transform: scaleX(1.1);
+nav a:hover {
+  background-color: #fff;
+  color: #0f1348 !important;
+  font-weight: 600;
+}
+
+.service {
+  margin-top: -3rem;
+  column-gap: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
