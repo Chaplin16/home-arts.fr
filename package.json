@@ -1,0 +1,19 @@
+{
+  "name": "climatisation-aimargues",
+  "version": "1.0.0",
+  "description": "site vitrine pour vente et pose climatisation à Aimargues",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaplin16/climatisation-aimargues.git"
+  },
+  "author": "Aurore Création Web",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaplin16/climatisation-aimargues/issues"
+  },
+  "homepage": "https://github.com/Chaplin16/climatisation-aimargues#readme"
+}
