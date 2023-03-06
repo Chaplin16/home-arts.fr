@@ -33,7 +33,10 @@ nav{
     }
 }
 
-main > div{
+section > div{
     margin-top: -3rem;
     column-gap: 5%;
+    & img{
+        padding: 0.8rem;
+    }
 }

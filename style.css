@@ -28,9 +28,12 @@ nav a:hover {
   font-weight: 600;
 }
 
-main > div {
+section > div {
   margin-top: -3rem;
   column-gap: 5%;
+}
+section > div img {
+  padding: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
