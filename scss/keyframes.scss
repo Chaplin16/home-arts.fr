@@ -68,3 +68,16 @@
   0%{ color:#000; }
 100%{ color: $color-blue; }
 }
+
+@keyframes turnLogo {
+  0%{
+    transform: rotate(0turn);
+  }
+  50%{
+    transform: rotate(1turn);
+  }
+  100%{
+    transform: rotate(0turn);
+  }
+  
+}

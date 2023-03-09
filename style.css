@@ -70,6 +70,17 @@
     color: #27b6c6;
   }
 }
+@keyframes turnLogo {
+  0% {
+    transform: rotate(0turn);
+  }
+  50% {
+    transform: rotate(1turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -140,8 +151,8 @@ main h3::before {
   height: 2px;
   animation: underlineH3 2500ms infinite ease-in-out;
 }
-main ul {
-  row-gap: 2rem;
+main .carousel {
+  height: 10rem !important;
 }
 main .temperature {
   row-gap: 2rem;
@@ -167,6 +178,14 @@ main .temperature p:last-child {
 
 footer {
   background-color: #27b6c6;
+}
+footer h5 {
+  font-weight: 700;
+}
+footer h5 ~ img {
+  animation: turnLogo 3500ms ease-in-out;
+  animation-delay: 2500ms;
+  animation-iteration-count: 2;
 }
 footer .formality {
   background-color: #18324c;

@@ -77,10 +77,9 @@ main{
         height: 2px;
         animation: underlineH3 2500ms infinite ease-in-out;
     }
-    ul{
-        row-gap:2rem;
+    .carousel{
+        height: 10rem!important;
     }
-
     .temperature{
         row-gap:2rem;
         margin-bottom:8rem;
@@ -108,6 +107,17 @@ main{
 
 footer{
     background-color: $color-blue;
+    h5{
+        font-weight: 700;
+        ~ img{
+            animation: turnLogo 3500ms  ease-in-out;
+            animation-delay: 2500ms;
+            animation-iteration-count: 2;
+            
+            
+        }
+    }
+
     .formality{
         background-color: $color-blue-dark;
         column-gap:10%;
