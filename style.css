@@ -165,18 +165,26 @@ main .temperature p:last-child {
   animation: changeColor 1500ms ease-in-out;
 }
 
-footer div {
-  column-gap: 2rem;
+footer {
+  background-color: #27b6c6;
+}
+footer .formality {
+  background-color: #18324c;
 }
 
 @media screen and (min-width: 769px) {
-  main, footer {
+  main, .footer {
     max-width: 800px;
     margin: auto;
     font-size: 15px;
   }
-  main .text, footer .text {
+  main .text, .footer .text {
     margin-top: 4rem;
+  }
+  .footer {
+    flex-direction: row !important;
+    align-items: start !important;
+    column-gap: 2rem;
   }
 }
 

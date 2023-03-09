@@ -107,20 +107,28 @@ main{
 }
 
 footer{
-    div{
-        column-gap: 2rem;
+    background-color: $color-blue;
+    .formality{
+        background-color: $color-blue-dark;
     }
+   
 }
 
 
 
+
 @media screen and (min-width:769px) {
-    main,footer{
+    main, .footer{
         max-width: 800px;
         margin:auto;
         .text{
             margin-top:4rem;
         }
         font-size: 15px;
+    }
+    .footer{
+        flex-direction: row!important;
+        align-items:start!important;
+        column-gap:2rem;
     }
 }
