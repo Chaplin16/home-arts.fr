@@ -34,14 +34,37 @@
       }
   }
 
-  @keyframes underlineH3{
-   0% {
+
+@keyframes underlineH3{
+  0% {
       width: 0;
     }
-    50% {
+  50% {
       width: 100%;
     }
-    100% {
+  100% {
       width:0;
     }
+}
+
+@keyframes moveTemperatureLeft {
+  0%{
+      margin-left: 60%;
+      color: $color-blue;
   }
+  100%{left:5%;
+  }
+}
+
+@keyframes moveTemperatureRight{
+  0%{
+      margin-right: 60%;
+      color: $color-blue;
+  }
+  100%{right:5%;}
+}
+
+@keyframes changeColor{
+  0%{ color:#000; }
+100%{ color: $color-blue; }
+}

@@ -70,7 +70,7 @@ main{
     h3::before{
         content: "";
         position: absolute;
-        top:30px;
+        top:35px;
         left: 5px;
         margin: auto;
         background: $color-blue;
@@ -80,18 +80,47 @@ main{
     ul{
         row-gap:2rem;
     }
-    
+
+    .temperature{
+        row-gap:2rem;
+        margin-bottom:8rem;
+        p{
+        font-weight:700; 
+            &:first-of-type{
+                top:5rem;
+                right:5%;
+                animation: moveTemperatureRight 1500ms ease-in-out;
+            }
+            &:nth-of-type(2){
+                top:15rem;
+                left:5%;
+                animation: moveTemperatureLeft 1500ms ease-in-out;
+            }
+            &:last-child{
+                bottom: -8rem;    
+                animation: changeColor 1500ms ease-in-out;
+            }
+        }
+       
+
+    } 
+}
+
+footer{
+    div{
+        column-gap: 2rem;
+    }
 }
 
 
 
 @media screen and (min-width:769px) {
-    main{
+    main,footer{
         max-width: 800px;
         margin:auto;
         .text{
             margin-top:4rem;
         }
-        
+        font-size: 15px;
     }
 }

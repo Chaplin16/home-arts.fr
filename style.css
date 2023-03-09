@@ -44,6 +44,32 @@
     width: 0;
   }
 }
+@keyframes moveTemperatureLeft {
+  0% {
+    margin-left: 60%;
+    color: #27b6c6;
+  }
+  100% {
+    left: 5%;
+  }
+}
+@keyframes moveTemperatureRight {
+  0% {
+    margin-right: 60%;
+    color: #27b6c6;
+  }
+  100% {
+    right: 5%;
+  }
+}
+@keyframes changeColor {
+  0% {
+    color: #000;
+  }
+  100% {
+    color: #27b6c6;
+  }
+}
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -107,7 +133,7 @@ main h3 {
 main h3::before {
   content: "";
   position: absolute;
-  top: 30px;
+  top: 35px;
   left: 5px;
   margin: auto;
   background: #27b6c6;
@@ -117,13 +143,39 @@ main h3::before {
 main ul {
   row-gap: 2rem;
 }
+main .temperature {
+  row-gap: 2rem;
+  margin-bottom: 8rem;
+}
+main .temperature p {
+  font-weight: 700;
+}
+main .temperature p:first-of-type {
+  top: 5rem;
+  right: 5%;
+  animation: moveTemperatureRight 1500ms ease-in-out;
+}
+main .temperature p:nth-of-type(2) {
+  top: 15rem;
+  left: 5%;
+  animation: moveTemperatureLeft 1500ms ease-in-out;
+}
+main .temperature p:last-child {
+  bottom: -8rem;
+  animation: changeColor 1500ms ease-in-out;
+}
+
+footer div {
+  column-gap: 2rem;
+}
 
 @media screen and (min-width: 769px) {
-  main {
+  main, footer {
     max-width: 800px;
     margin: auto;
+    font-size: 15px;
   }
-  main .text {
+  main .text, footer .text {
     margin-top: 4rem;
   }
 }
