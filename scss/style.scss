@@ -110,9 +110,20 @@ footer{
     background-color: $color-blue;
     .formality{
         background-color: $color-blue-dark;
-    }
-   
+        column-gap:10%;
+        & > div a:first-of-type{
+            color: #ff04fb;
+                &:hover{
+                    color: #9000ff!important;
+                }
+            }                        
+        }
+        a:hover{
+            color: #e9c759!important;
+        }
 }
+   
+
 
 
 

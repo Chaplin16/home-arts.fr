@@ -170,6 +170,16 @@ footer {
 }
 footer .formality {
   background-color: #18324c;
+  column-gap: 10%;
+}
+footer .formality > div a:first-of-type {
+  color: #ff04fb;
+}
+footer .formality > div a:first-of-type:hover {
+  color: #9000ff !important;
+}
+footer a:hover {
+  color: #e9c759 !important;
 }
 
 @media screen and (min-width: 769px) {
