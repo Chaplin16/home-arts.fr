@@ -1,9 +1,44 @@
+@keyframes jumpImg {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-30px);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-30px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+  10% {
+    transform: translateY(0);
+  }
+}
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   width: 100%;
   max-width: 100%;
-  font-size: 11px;
+  font-size: 13px;
   min-height: 100% !important;
   color: #333232 !important;
 }
@@ -26,21 +61,37 @@ nav a:hover {
   background-color: #fff;
   color: #18324c !important;
   font-weight: 600;
+  border-bottom: 3px solid red;
 }
 
-section > div {
+main section > div {
   margin-top: -3rem;
   column-gap: 5%;
 }
-section > div .card {
+main section > div .card {
   border-bottom: 3px solid #27b6c6;
 }
-section > div .card:hover {
+main section > div .card:hover {
   background-color: #18324c !important;
   color: #fff;
+  border-bottom: 3px solid red;
 }
-section > div img {
+main section > div img {
   padding: 0.8rem;
+}
+main .text img {
+  transition: all 300ms;
+  animation: jumpImg 2500ms ease-in-out;
+}
+
+@media screen and (min-width: 769px) {
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  main .text {
+    margin-top: 4rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
