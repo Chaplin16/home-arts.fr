@@ -33,6 +33,17 @@
     transform: translateY(0);
   }
 }
+@keyframes underlineH3 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 25rem;
+  }
+  100% {
+    width: 0;
+  }
+}
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -87,6 +98,16 @@ main .text img {
 }
 main .text-clim {
   rotate: -15deg;
+}
+main h3::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  margin: auto;
+  background: #27b6c6;
+  height: 2px;
+  animation: underlineH3 2500ms infinite ease-in-out;
 }
 
 @media screen and (min-width: 769px) {

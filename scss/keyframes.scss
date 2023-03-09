@@ -33,3 +33,15 @@
         transform: translateY(0);
       }
   }
+
+  @keyframes underlineH3{
+   0% {
+      width: 0;
+    }
+    50% {
+      width: 25rem;
+    }
+    100% {
+      width:0;
+    }
+  }

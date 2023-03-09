@@ -61,6 +61,16 @@ main{
             rotate: -15deg;
         }
     }
+    h3::before{
+        content: "";
+        position: absolute;
+        top:60px;
+        left: 10px;
+        margin: auto;
+        background: $color-blue;
+        height: 2px;
+        animation: underlineH3 2500ms infinite ease-in-out;
+    }
     
 }
 
