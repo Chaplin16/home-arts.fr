@@ -183,6 +183,9 @@ main .temperature p:last-child {
   bottom: -8rem;
   animation: changeColor 1500ms ease-in-out;
 }
+main .carouselClim .draggable {
+  padding: 0 !important;
+}
 
 footer {
   background-color: #27b6c6;
