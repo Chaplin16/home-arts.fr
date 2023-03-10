@@ -93,16 +93,19 @@ main{
             &:first-of-type{
                 top:5rem;
                 right:5%;
-                animation: moveTemperatureRight 1500ms ease-in-out;
+                animation: moveTemperatureRight 1500ms  ease-in-out;
+                animation-delay: 2500ms;
             }
             &:nth-of-type(2){
                 top:15rem;
                 left:5%;
                 animation: moveTemperatureLeft 1500ms ease-in-out;
+                animation-delay: 2500ms;
             }
             &:last-child{
                 bottom: -8rem;    
                 animation: changeColor 1500ms ease-in-out;
+                animation-delay: 2500ms;
             }
         }
     } 
