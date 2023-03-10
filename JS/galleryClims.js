@@ -3,7 +3,7 @@ function carousel(selector, data) {
   let element = document.querySelector(selector);
   data.forEach(function(e) {
       element.innerHTML += 
-      `<div class="img-card">
+      `<div class="img-card m-auto">
           <img class="m-auto" src="${e.link}" alt="${e.alt}">
       </div>`;
   });
@@ -22,16 +22,16 @@ function carousel(selector, data) {
       focusOnSelect: true,
       responsive: [
             {
-              breakpoint: 1050,
+              breakpoint: 750,
               settings: {
                   slidesToShow: 2,
                   arrows: true,
-                  fade: true,
+                  fade: false,
                   centerMode:true
               }
             },
            {
-              breakpoint: 550,
+              breakpoint: 650,
               settings: {
                   slidesToShow: 1,
                   arrows: true,
