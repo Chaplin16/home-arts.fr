@@ -81,6 +81,14 @@
     transform: rotate(0turn);
   }
 }
+@keyframes displayTitle {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1.2);
+  }
+}
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -199,6 +207,10 @@ footer .formality > div a:first-of-type:hover {
 }
 footer a:hover {
   color: #e9c759 !important;
+}
+
+.displayTitle {
+  animation: displayTitle 500ms ease-in-out;
 }
 
 @media screen and (min-width: 769px) {
