@@ -141,7 +141,7 @@ main .text img {
   transition: all 300ms;
   animation: jumpImg 2500ms ease-in-out;
   animation-delay: 3500ms;
-  animation-iteration-count: 3;
+  animation-iteration-count: 5;
 }
 main .text-clim {
   rotate: -15deg;
@@ -196,7 +196,7 @@ footer h5 {
 footer h5 ~ img {
   animation: turnLogo 3500ms ease-in-out;
   animation-delay: 2500ms;
-  animation-iteration-count: 2;
+  animation-iteration-count: 5;
 }
 footer .formality {
   background-color: #18324c;
@@ -224,6 +224,15 @@ footer a:hover {
   }
   main .text, .footer .text {
     margin-top: 4rem;
+  }
+  .carouselClim .draggable .img-card {
+    width: 23rem;
+    height: 17rem !important;
+  }
+  .carouselClim .draggable .img-card img {
+    width: 23rem;
+    height: 17rem !important;
+    object-fit: cover;
   }
   .footer {
     flex-direction: row !important;

@@ -10,21 +10,16 @@ function carousel(selector, data) {
     $(element).slick({
         centerMode: true,
         centerPadding: '0px',
-        slidesToShow: 5,
+        slidesToShow: 3,
         arrows: false,
         speed:1300,
         adaptiveHeight: true,
-        autoplaySpeed:1200,
+        autoplaySpeed:1000,
         autoplay: true,
-        pauseOnHover:true,
+        cssEase: 'linear',
+        waitForAnimate: false,
+        pauseOnHover:false,
         responsive: [
-            {
-                breakpoint: 1550,
-                settings: {
-
-                    slidesToShow: 3,
-                }
-           },
             {
                 breakpoint: 1000,
                 settings: {
