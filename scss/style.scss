@@ -17,9 +17,8 @@ html{
     color: $color-blue;
 } 
 
-
 nav{
-    background-image: url("/images/banner-climatisation-aimargues-froid-chaud.jpeg");
+    background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");
     height:250px;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,6 +50,7 @@ main{
             padding: 0.8rem;
         }
     } 
+
     .text {
         img{
             margin-bottom:2rem;
@@ -64,9 +64,11 @@ main{
             rotate: -15deg;
         }
     }
+
     h3{
         display: inline; 
     }
+
     h3::before{
         content: "";
         position: absolute;
@@ -77,9 +79,11 @@ main{
         height: 2px;
         animation: underlineH3 2500ms infinite ease-in-out;
     }
+
     .carousel{
         height: 10rem!important;
     }
+
     .temperature{
         row-gap:2rem;
         margin-bottom:8rem;
@@ -100,8 +104,6 @@ main{
                 animation: changeColor 1500ms ease-in-out;
             }
         }
-       
-
     } 
 }
 

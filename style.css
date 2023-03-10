@@ -96,7 +96,7 @@ html {
 }
 
 nav {
-  background-image: url("/images/banner-climatisation-aimargues-froid-chaud.jpeg");
+  background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");
   height: 250px;
   background-repeat: no-repeat;
   background-position: center;
