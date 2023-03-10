@@ -108,6 +108,10 @@ main{
     } 
     .carouselClim .draggable{
         padding:0!important;
+        .img-card img{
+            box-shadow: 4px 4px 5px #5d5c5c;
+            border-radius: 5px;
+        }
     }
 }
 

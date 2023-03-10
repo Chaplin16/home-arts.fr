@@ -186,6 +186,10 @@ main .temperature p:last-child {
 main .carouselClim .draggable {
   padding: 0 !important;
 }
+main .carouselClim .draggable .img-card img {
+  box-shadow: 4px 4px 5px #5d5c5c;
+  border-radius: 5px;
+}
 
 footer {
   background-color: #27b6c6;
