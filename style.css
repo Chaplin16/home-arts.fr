@@ -83,10 +83,10 @@
 }
 @keyframes displayTitle {
   0% {
-    transform: scaleX(0);
+    transform: scaleY(0);
   }
   100% {
-    transform: scaleX(1.2);
+    transform: scaleY(1.5);
   }
 }
 html {
