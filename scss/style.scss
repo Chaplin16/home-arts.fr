@@ -25,6 +25,7 @@ header{
       display: none!important;  
     }
     nav{
+        background-color: $color-blue-dark;
         .navbar-toggler{
             border: none!important;
             position: relative;
@@ -32,9 +33,9 @@ header{
             &:focus{
                 border:none!important;
                 color: #fff!important;
-                background-color: #fff!important;
+                background-color: transparent!important;
                 outline: none!important; 
-                box-shadow: 0 0 0 #fff;
+                box-shadow: 0 0 0 transparent;
             }
             & .line{
                 position: absolute;
@@ -43,7 +44,6 @@ header{
                 display: block;
                 width: 20px;
                 height: 2px;
-                
                 background: $color-blue;
                 transition: transform 300ms ease-out, opacity 0.1s ease-out;
             }
@@ -53,20 +53,30 @@ header{
             .l3{
                 transform: translateY(10px);
             }
+            .l2{
+                background: #fff;
+            }
         }
         .navbar-toggler.active .l1{
             transform: translateY(0px) rotate(135deg);
+            background: #fff;
         }
-    
         .navbar-toggler.active .l2{
             opacity: 0;
         }
-    
         .navbar-toggler.active .l3{
-            transform: translateY(0px) rotate(-135deg);
+            transform: translateY(0px) rotate(-135deg);    
+        } 
+        .navbar-nav a{
+            display: inline-block;
+            &:hover{
+                border-bottom: 1px solid $color-blue;
+                color: #fff!important;
+            }
+        } 
+        & img{
+            animation: turnLogo 3500ms  ease-in-out;
         }
-
-        
     }
     .header{
         background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");
@@ -234,6 +244,6 @@ footer{
 
 @media screen and (min-width:992px) {
     .navbar-expand-lg .navbar-collapse{
-        flex-grow: 0; 
+       justify-content: end;
     }
 }
