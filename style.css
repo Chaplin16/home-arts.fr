@@ -237,18 +237,18 @@ main .temperature p:first-of-type {
   top: 5rem;
   right: 5%;
   animation: moveTemperatureRight 1500ms ease-in-out;
-  animation-delay: 2500ms;
+  animation-delay: 3500ms;
 }
 main .temperature p:nth-of-type(2) {
   top: 15rem;
   left: 5%;
   animation: moveTemperatureLeft 1500ms ease-in-out;
-  animation-delay: 2500ms;
+  animation-delay: 3500ms;
 }
 main .temperature p:last-child {
   bottom: -8rem;
   animation: changeColor 1500ms ease-in-out;
-  animation-delay: 2500ms;
+  animation-delay: 3500ms;
 }
 main .carouselClim .draggable {
   padding: 0 !important;
@@ -264,9 +264,9 @@ footer {
 footer h5 {
   font-weight: 700;
 }
-footer h5 ~ img {
+footer h5 ~ img.turn {
   animation: turnLogo 3500ms ease-in-out;
-  animation-delay: 2500ms;
+  animation-delay: 1500ms;
   animation-iteration-count: 5;
 }
 footer .formality {

@@ -159,18 +159,18 @@ main{
                 top:5rem;
                 right:5%;
                 animation: moveTemperatureRight 1500ms  ease-in-out;
-                animation-delay: 2500ms;
+                animation-delay: 3500ms;
             }
             &:nth-of-type(2){
                 top:15rem;
                 left:5%;
                 animation: moveTemperatureLeft 1500ms ease-in-out;
-                animation-delay: 2500ms;
+                animation-delay: 3500ms;
             }
             &:last-child{
                 bottom: -8rem;    
                 animation: changeColor 1500ms ease-in-out;
-                animation-delay: 2500ms;
+                animation-delay: 3500ms;
             }
         }
     } 
@@ -187,9 +187,9 @@ footer{
     background-color: $color-blue;
     h5{
         font-weight: 700;
-        ~ img{
+        ~ img.turn{
             animation: turnLogo 3500ms  ease-in-out;
-            animation-delay: 2500ms;
+            animation-delay: 1500ms;
             animation-iteration-count: 5;
             
             
