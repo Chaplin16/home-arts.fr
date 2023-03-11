@@ -75,7 +75,8 @@ header{
             }
         } 
         & img{
-            animation: turnLogo 3500ms  ease-in-out;
+            animation: turnLogo 3500ms ease-in-out;
+            animation-delay: 500ms;
         }
     }
     .header{
@@ -117,10 +118,12 @@ main{
         img{
             margin-bottom:2rem;
             margin-top:1rem;
+        }
+        .jumpImg{
             transition: all 300ms;
             animation: jumpImg 2500ms  ease-in-out;
-            animation-delay: 3500ms;
-            animation-iteration-count: 5;
+            animation-delay: 500ms;
+            animation-iteration-count: 3;
         }
         &-clim{
             rotate: -15deg;
