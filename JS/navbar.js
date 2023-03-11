@@ -1,4 +1,5 @@
 const nav = document.querySelector("nav");
+const hamburgerIcon = document.querySelector(".navbar-toggler");
 
 //rendre la navbar fixed au scroll
 window.addEventListener("scroll", () => {
@@ -9,3 +10,9 @@ window.addEventListener("scroll", () => {
       nav.classList.remove("nav");
     }
   });
+
+  //mavbar qui se deplie au click
+hamburgerIcon.addEventListener("click", toggleNav);
+function toggleNav() {
+  hamburgerIcon.classList.toggle("active");
+}

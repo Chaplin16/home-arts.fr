@@ -110,6 +110,42 @@ header .nav {
   padding: 0 !important;
   display: none !important;
 }
+header nav .navbar-toggler {
+  border: none !important;
+  position: relative;
+}
+header nav .navbar-toggler:hover, header nav .navbar-toggler:focus {
+  border: none !important;
+  color: #fff !important;
+  background-color: #fff !important;
+  outline: none !important;
+  box-shadow: 0 0 0 #fff;
+}
+header nav .navbar-toggler .line {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #27b6c6;
+  transition: transform 300ms ease-out, opacity 0.1s ease-out;
+}
+header nav .navbar-toggler .l1 {
+  transform: translateY(-10px);
+}
+header nav .navbar-toggler .l3 {
+  transform: translateY(10px);
+}
+header nav .navbar-toggler.active .l1 {
+  transform: translateY(0px) rotate(135deg);
+}
+header nav .navbar-toggler.active .l2 {
+  opacity: 0;
+}
+header nav .navbar-toggler.active .l3 {
+  transform: translateY(0px) rotate(-135deg);
+}
 header .header {
   background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");
   height: 250px;
@@ -168,6 +204,7 @@ main h3::before {
 }
 main .carousel {
   height: 10rem !important;
+  max-width: 95%;
 }
 main .temperature {
   row-gap: 2rem;
