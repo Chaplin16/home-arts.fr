@@ -110,17 +110,17 @@ header .nav {
   padding: 0 !important;
   display: none !important;
 }
-header .nav .header {
+header .header {
   background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");
   height: 250px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-header .nav .header a {
+header .header a {
   cursor: pointer;
 }
-header .nav .header a:hover {
+header .header a:hover {
   background-color: #fff;
   color: #18324c !important;
   font-weight: 600;

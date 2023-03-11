@@ -22,8 +22,9 @@ header{
     }
     .nav{
       padding: 0!important;
-      display: none!important;
-      .header{
+      display: none!important;  
+    }
+    .header{
         background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");
         height:250px;
         background-repeat: no-repeat;
@@ -39,7 +40,6 @@ header{
             }
         }
       }
-    }
 }
 
 main{
