@@ -10,7 +10,7 @@ function carousel(selector, data) {
   $(element).slick({
       centerMode: true,
       centerPadding: '30px',
-      slidesToShow: 2,
+      slidesToShow: 4,
       arrows: true,
       speed:1300,
       adaptiveHeight: true,
@@ -21,8 +21,17 @@ function carousel(selector, data) {
       pauseOnHover:false,
       focusOnSelect: true,
       responsive: [
+        {
+            breakpoint: 1500,
+            settings: {
+                slidesToShow: 3,
+                arrows: true,
+                fade: false,
+                centerMode:true
+            }
+          },
             {
-              breakpoint: 750,
+              breakpoint: 1000,
               settings: {
                   slidesToShow: 2,
                   arrows: true,

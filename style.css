@@ -33,6 +33,14 @@
     transform: translateY(0);
   }
 }
+@keyframes appearNavbar {
+  0% {
+    transform: translateY(-450px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 @keyframes underlineH3 {
   0% {
     width: 0;
@@ -112,6 +120,7 @@ header .nav {
 }
 header nav {
   background-color: #18324c;
+  transition: background-color 250ms ease-in-out;
 }
 header nav .navbar-toggler {
   border: none !important;
@@ -187,6 +196,7 @@ main section > div {
 }
 main section > div .card {
   border-bottom: 3px solid #27b6c6;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out, border-bottom 250ms ease-in-out;
 }
 main section > div .card:hover {
   background-color: #18324c !important;
@@ -209,15 +219,23 @@ main .text .jumpImg {
 main .text-clim {
   rotate: -15deg;
 }
-main h3 {
-  display: inline;
+main .background {
+  background-image: url("images/background-froid-climatisation-air-froid-aimargues.jpeg");
+  height: 12rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
 }
-main h3::before {
+main .background h4 {
+  display: inline;
+  font-weight: 700;
+  margin-left: 5rem;
+}
+main .background h4::before {
   content: "";
   position: absolute;
-  top: 35px;
-  left: 5px;
-  margin: auto;
+  top: 40px;
   background: #27b6c6;
   height: 2px;
   animation: underlineH3 2500ms infinite ease-in-out;
@@ -228,7 +246,8 @@ main .carousel {
 }
 main .temperature {
   row-gap: 2rem;
-  margin-bottom: 8rem;
+  max-width: 1000px;
+  margin: auto;
 }
 main .temperature p {
   font-weight: 700;
@@ -249,6 +268,9 @@ main .temperature p:last-child {
   bottom: -8rem;
   animation: changeColor 1500ms ease-in-out;
   animation-delay: 3500ms;
+}
+main .carouselClim {
+  margin-top: 8rem;
 }
 main .carouselClim .draggable {
   padding: 0 !important;
@@ -288,12 +310,18 @@ footer a:hover {
 }
 
 @media screen and (min-width: 769px) {
-  main, .footer {
+  .text {
+    width: 80%;
+    max-width: 1000px !important;
+    margin: auto;
+    font-size: 1.3rem;
+  }
+  .footer {
     max-width: 800px;
     margin: auto;
     font-size: 15px;
   }
-  main .text, .footer .text {
+  .footer .text {
     margin-top: 4rem;
   }
   .carouselClim .draggable .img-card {

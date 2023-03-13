@@ -23,13 +23,16 @@ function carousel(selector, data) {
             {
                 breakpoint: 1000,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    fade:false
                 }
             },
             {
                 breakpoint: 550,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    fade: true,
+                    centerMode:true
                 }
              }
          ]
