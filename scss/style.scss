@@ -23,6 +23,11 @@ header{
     .display{
         top: 0;
     }
+    .nav-animation{
+        animation: turnLogo 2500ms ease-in-out;
+        animation-delay: 500ms;
+        animation-iteration-count: 2;
+    }
     nav{
         padding: 0!important;
         position: fixed!important;
@@ -34,6 +39,9 @@ header{
         transition: top 300ms;
         transition-delay: 250ms;
         z-index:10;
+        .nav-item{
+            background-color: $color-blue-dark;;
+        }
         .navbar-toggler{
             border: none!important;
             position: relative;
@@ -82,10 +90,7 @@ header{
                 color: #fff!important;
             }
         } 
-        & img{
-            animation: turnLogo 3500ms ease-in-out;
-            animation-delay: 500ms;
-        }
+       
     }
     .header{
         background-image: url("images/banner-climatisation-aimargues-froid-chaud.jpeg");

@@ -5,7 +5,7 @@ const hamburgerIcon = document.querySelector(".navbar-toggler");
 
 document.addEventListener('scroll',() => {
 		let top  = document.documentElement.scrollTop;
-    if (window.scrollY > 350) {
+    if (window.scrollY > 450) {
     	nav.classList.add("display");
     } else {
     	nav.classList.remove("display");
