@@ -1,15 +1,16 @@
-const nav = document.querySelector("nav");
+const nav = document.getElementById("nav");
 const hamburgerIcon = document.querySelector(".navbar-toggler");
 
 //rendre la navbar fixed au scroll
-window.addEventListener("scroll", () => {
-    if (window.scrollY < 350) {
-      nav.classList.add("nav");
-      
+
+document.addEventListener('scroll',() => {
+		let top  = document.documentElement.scrollTop;
+    if (window.scrollY > 350) {
+    	nav.classList.add("display");
     } else {
-      nav.classList.remove("nav");
+    	nav.classList.remove("display");
     }
-  });
+});
 
   //mavbar qui se deplie au click
 hamburgerIcon.addEventListener("click", toggleNav);
