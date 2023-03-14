@@ -2,61 +2,73 @@ const electricity = [
     {
         id: 1,
         link:"../images/card-electricity/raccordement-electricite-gard-herault.jpg",
-        alt:"fgqsdg"
+        alt:"",
+        position:"r10"
     },
     {
         id:2,
         link:"../images/card-electricity/installation-lumiere-montpellier-nimes-aimargues.jpg",
-        alt:""
+        alt:"",
+        position:"r3"
     },
     {
         id:3,
         link:"../images/card-electricity/pose-prise-courant-electricité-gard-herault.jpg",
-        alt:""
+        alt:"",
+        position:"r10"
     },
     {
         id:4,
         link:"../images/card-electricity/circuit-electrique-aimargues-gard-herault.jpg",
-        alt:""
+        alt:"",
+        position:"r3"
     },
     {
         id:5,
         link:"../images/card-electricity/lampes-electricite-lumiere-montpellier.jpg",
-        alt:""
+        alt:"",
+        position:"r8"
     },
     {
         id:6,
         link:"../images/card-electricity/travaux-electricite-aimargues-nimes-montpellier-home-art.jpg",
-        alt:""
+        alt:"",
+        position:"r2"
     },
     {
         id:7,
         link:"../images/card-electricity/testeur-electricite-climatisation.jpg",
-        alt:""
+        alt:"",
+        position:"r10"
     },
     {
         id:8,
         link:"../images/card-electricity/raccordement-electrique-climatisation-aimargues-nimes-montpellier.jpg",
-        alt:""
+        alt:"",
+        position:"r5"
     },
     {
         id:9,
         link:"../images/card-electricity/prise-courant-raccordement-montpellier.jpg",
-        alt:""
+        alt:"",
+        position:"r-2"
     },
     {
         id:10,
         link:"../images/card-electricity/installation-tableau-electrique-aimargues.jpg",
-        alt:""
+        alt:"",
+        position:"r11"
     },
     {
         id:11,
         link:"../images/card-electricity/travaux-electricite-aimargues-gard.jpg",
-        alt:""
+        alt:"",
+        position:"r1"
     },
     {
         id:12,
         link:"../images/card-electricity/raccordement-courant-electricite-aimargues.jpg",
-        alt:""
+        alt:"",
+        position:"r8"
     }
 ]

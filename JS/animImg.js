@@ -1,5 +1,5 @@
 const jump = document.querySelector(".jump");
-const turn = document.querySelector(".turn");
+turn = document.querySelector(".turn");
 
 //animate in scroll of 1000px for img in  the text in index.html AND for logo in footer
 window.addEventListener("scroll", () => {

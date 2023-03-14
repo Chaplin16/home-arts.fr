@@ -112,13 +112,13 @@ html {
 }
 
 header h1, header h2 {
-  animation: displayTitle 1500ms ease;
+  animation: displayTitle 2000ms ease;
 }
 header .display {
   top: 0;
 }
 header .nav-animation {
-  animation: turnLogo 2500ms ease-in-out;
+  animation: turnLogo 3000ms ease-in-out;
   animation-delay: 500ms;
   animation-iteration-count: 2;
 }
@@ -130,7 +130,7 @@ header nav {
   top: -100px;
   height: 100px;
   background-color: #18324c;
-  transition: top 300ms;
+  transition: top 1000ms;
   transition-delay: 250ms;
   z-index: 10;
 }
@@ -317,21 +317,62 @@ footer a:hover {
   color: #e9c759 !important;
 }
 
-.gallery {
+.electricity {
+  background-color: #ebe9e9;
+}
+.electricity h1 {
+  animation: displayTitle 2000ms ease;
+  max-width: 1000px;
+}
+.electricity h1 ~ p {
+  max-width: 1000px;
+}
+.electricity .gallery {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 30px !important;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
 }
-.gallery li img {
+.electricity .gallery li img {
   padding: 10px 10px 25px 10px;
-  background: rgb(81, 80, 80);
+  background: linear-gradient(rgb(41, 40, 40), rgb(151, 225, 243));
   border: 1px solid rgb(73, 71, 71);
   box-shadow: 0px 2px 15px #333;
   width: 200px;
   height: auto;
-  margin: 30px;
+  position: relative;
 }
-.gallery li img:nth-child(3n) {
+
+.r10 {
   transform: rotate(-10deg);
+  z-index: 3;
+}
+
+.r3 {
+  transform: rotate(3deg);
+  z-index: 5;
+}
+
+.r8, .r5 {
+  transform: rotate(8deg);
+  z-index: 5;
+}
+
+.r2 {
+  transform: rotate(2deg);
+  z-index: 1;
+}
+
+.r-2 {
+  transform: rotate(-2deg);
+  z-index: 5;
+}
+
+.r11 {
+  transform: rotate(-11deg);
+  z-index: 3;
 }
 
 .displayTitle {

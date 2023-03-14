@@ -18,13 +18,13 @@ html{
 } 
 header{
     h1, h2{
-        animation: displayTitle 1500ms ease;
+        animation: displayTitle 2000ms ease;
     }
     .display{
         top: 0;
     }
     .nav-animation{
-        animation: turnLogo 2500ms ease-in-out;
+        animation: turnLogo 3000ms ease-in-out;
         animation-delay: 500ms;
         animation-iteration-count: 2;
     }
@@ -36,7 +36,7 @@ header{
         top: -100px;
         height: 100px;    
         background-color: $color-blue-dark;
-        transition: top 300ms;
+        transition: top 1000ms;
         transition-delay: 250ms;
         z-index:10;
         .nav-item{
@@ -239,24 +239,65 @@ footer{
 }
  
 //PAGE ELECTRICITY
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    li{
-        & img{
-            padding: 10px 10px 25px 10px;
-            background: rgb(81, 80, 80);
-            border: 1px solid rgb(73, 71, 71);
-            box-shadow : 0px 2px 15px #333;
-            width: 200px;
-            height: auto;
-            margin:30px;
-            &:nth-child(3n){
-                transform : rotate(-10deg);
+.electricity {
+    background-color: #ebe9e9;
+
+    h1{
+        animation: displayTitle 2000ms ease;
+        max-width:1000px;   
+        & ~ p{
+            max-width:1000px;
+        }
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+
+        row-gap:30px!important;
+        justify-content: center;
+        max-width:1000px;
+        margin:auto;
+        li{
+            & img{
+                padding: 10px 10px 25px 10px;
+                background: linear-gradient( rgb(41, 40, 40), rgb(151, 225, 243));
+                border: 1px solid rgb(73, 71, 71);
+                box-shadow : 0px 2px 15px #333;
+                width: 200px;
+                height: auto;
+                position: relative;  
             }
         }
     }
 }
+.r10{
+    transform: rotate(-10deg);
+    z-index: 3;
+}
+.r3{
+    transform: rotate(3deg);
+    z-index: 5;
+}
+
+.r8,.r5{
+    transform: rotate(8deg);
+    z-index: 5;
+}
+.r2{
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+.r-2{
+    transform: rotate(-2deg);
+    z-index: 5;
+}
+.r11{
+    transform: rotate(-11deg);
+    z-index: 3;
+}
+
+
 
 //PAGE LAW.HTML
 .displayTitle{

@@ -3,10 +3,9 @@ const hamburgerIcon = document.querySelector(".navbar-toggler");
 const navAnimation = document.getElementById("nav-animation")
 
 //rendre la navbar fixed au scroll
-
 document.addEventListener('scroll',() => {
 		let top  = document.documentElement.scrollTop;
-    if (window.scrollY > 450) {
+    if (window.scrollY > 250) {
     	nav.classList.add("display");
     } else {
     	nav.classList.remove("display");
@@ -22,7 +21,7 @@ function toggleNav() {
 
 // animate logo in navbar
 window.addEventListener("scroll", () => {
-  if (window.scrollY >= 450) {
+  if (window.scrollY >= 300) {
     navAnimation.classList.add("nav-animation");
   } else {
     navAnimation.classList.remove("nav-animation");

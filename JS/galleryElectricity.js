@@ -1,10 +1,9 @@
 const galleryElectricity = document.getElementById("gallery");
 
 for (const element of electricity) {
-    console.log(element);
     galleryElectricity.innerHTML +=`
     <li class="list-unstyled">
-        <img src=${element.link}  id="${element.id}" alt=${element.alt}/>
+        <img class="${element.position}" data-kt-rotate="true" src=${element.link}  id="${element.id}" alt=${element.alt}/>
     </li>
     `
   }
