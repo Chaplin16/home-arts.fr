@@ -282,6 +282,7 @@ main .temperature p:last-child {
 }
 main .carouselClim {
   margin-top: 8rem;
+  overflow: hidden;
 }
 main .carouselClim .draggable {
   padding: 0 !important;
