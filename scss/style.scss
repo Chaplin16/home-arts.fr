@@ -239,11 +239,23 @@ footer{
 }
  
 //PAGE ELECTRICITY
-ul .gallery li a {
-	float: left!important;
-	padding: 10px 10px 25px 10px;
-	background: red;
-	border: 1px solid red;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        & img{
+            padding: 10px 10px 25px 10px;
+            background: rgb(81, 80, 80);
+            border: 1px solid rgb(73, 71, 71);
+            box-shadow : 0px 2px 15px #333;
+            width: 200px;
+            height: auto;
+            margin:30px;
+            &:nth-child(3n){
+                transform : rotate(-10deg);
+            }
+        }
+    }
 }
 
 //PAGE LAW.HTML

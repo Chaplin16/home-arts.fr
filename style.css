@@ -317,11 +317,21 @@ footer a:hover {
   color: #e9c759 !important;
 }
 
-ul .gallery li a {
-  float: left !important;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery li img {
   padding: 10px 10px 25px 10px;
-  background: red;
-  border: 1px solid red;
+  background: rgb(81, 80, 80);
+  border: 1px solid rgb(73, 71, 71);
+  box-shadow: 0px 2px 15px #333;
+  width: 200px;
+  height: auto;
+  margin: 30px;
+}
+.gallery li img:nth-child(3n) {
+  transform: rotate(-10deg);
 }
 
 .displayTitle {
