@@ -300,8 +300,8 @@ footer h5 {
 }
 footer h5 ~ img.turn {
   animation: turnLogo 3500ms ease-in-out;
-  animation-delay: 1500ms;
-  animation-iteration-count: 5;
+  animation-delay: 500ms;
+  animation-iteration-count: 3;
 }
 footer .formality {
   background-color: #18324c;
@@ -326,6 +326,10 @@ footer a:hover {
 }
 .electricity h1 ~ p {
   max-width: 1000px;
+  margin: auto;
+}
+.electricity h2 {
+  color: #18324c;
 }
 .electricity .gallery {
   display: flex;

@@ -216,8 +216,8 @@ footer{
         font-weight: 700;
         ~ img.turn{
             animation: turnLogo 3500ms  ease-in-out;
-            animation-delay: 1500ms;
-            animation-iteration-count: 5;
+            animation-delay: 500ms;
+            animation-iteration-count: 3;
             
             
         }
@@ -247,7 +247,11 @@ footer{
         max-width:1000px;   
         & ~ p{
             max-width:1000px;
+            margin:auto;
         }
+    }
+    h2{
+        color: $color-blue-dark;
     }
     .gallery {
         display: flex;
