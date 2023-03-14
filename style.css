@@ -221,14 +221,14 @@ main .text img {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-main .text .jumpImg {
+main .text-clim {
+  rotate: -15deg;
+}
+main .jumpImg {
   transition: all 300ms;
   animation: jumpImg 2500ms ease-in-out;
   animation-delay: 500ms;
   animation-iteration-count: 3;
-}
-main .text-clim {
-  rotate: -15deg;
 }
 main .background {
   background-image: url("images/background-froid-climatisation-air-froid-aimargues.jpeg");
@@ -315,6 +315,13 @@ footer .formality > div a:first-of-type:hover {
 }
 footer a:hover {
   color: #e9c759 !important;
+}
+
+ul .gallery li a {
+  float: left !important;
+  padding: 10px 10px 25px 10px;
+  background: red;
+  border: 1px solid red;
 }
 
 .displayTitle {

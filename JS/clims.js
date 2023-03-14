@@ -1,4 +1,4 @@
-const clims = [
+clims = [
     {
         id:1,
         link:"images/clim/reparation-unite-climatiseur-gard-herault.jpg",

@@ -132,17 +132,18 @@ main{
             margin-bottom:2rem;
             margin-top:1rem;
         }
-        .jumpImg{
-            transition: all 300ms;
-            animation: jumpImg 2500ms  ease-in-out;
-            animation-delay: 500ms;
-            animation-iteration-count: 3;
-        }
         &-clim{
             rotate: -15deg;
         }
     }
     
+    .jumpImg{
+        transition: all 300ms;
+        animation: jumpImg 2500ms  ease-in-out;
+        animation-delay: 500ms;
+        animation-iteration-count: 3;
+    }
+
     .background{
         background-image: url("images/background-froid-climatisation-air-froid-aimargues.jpeg");
         height:12rem;
@@ -236,8 +237,14 @@ footer{
             color: #e9c759!important;
         }
 }
-   
-
+ 
+//PAGE ELECTRICITY
+ul .gallery li a {
+	float: left!important;
+	padding: 10px 10px 25px 10px;
+	background: red;
+	border: 1px solid red;
+}
 
 //PAGE LAW.HTML
 .displayTitle{
