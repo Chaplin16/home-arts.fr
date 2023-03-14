@@ -51,19 +51,19 @@ const electricity = [
         id:9,
         link:"../images/card-electricity/prise-courant-raccordement-montpellier.jpg",
         alt:"",
-        position:"r-2"
+        position:"r-8"
     },
     {
         id:10,
         link:"../images/card-electricity/installation-tableau-electrique-aimargues.jpg",
         alt:"",
-        position:"r11"
+        position:"r8"
     },
     {
         id:11,
         link:"../images/card-electricity/travaux-electricite-aimargues-gard.jpg",
         alt:"",
-        position:"r-2"
+        position:"r10"
     },
     {
         id:12,

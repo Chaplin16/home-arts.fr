@@ -241,7 +241,6 @@ footer{
 //PAGE ELECTRICITY
 .electricity {
     background-color: #ebe9e9;
-
     h1{
         animation: displayTitle 2000ms ease;
         max-width:1000px;   
@@ -256,7 +255,6 @@ footer{
     .gallery {
         display: flex;
         flex-wrap: wrap;
-
         row-gap:30px!important;
         justify-content: center;
         max-width:1250px;
@@ -267,7 +265,7 @@ footer{
                 background: linear-gradient( rgb(41, 40, 40), rgb(151, 225, 243));
                 border: 1px solid rgb(73, 71, 71);
                 box-shadow : 0px 2px 15px #333;
-                width: 200px;
+                width: 150px;
                 height: auto;
                 position: relative;  
                 &:hover{
@@ -287,7 +285,7 @@ footer{
 }
 
 .r8,.r5{
-    transform: rotate(9deg);
+    transform: rotate(11deg);
     z-index: 5;
 }
 .r2{
