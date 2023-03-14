@@ -15,7 +15,7 @@ const electricity = [
         id:3,
         link:"../images/card-electricity/pose-prise-courant-electricité-gard-herault.jpg",
         alt:"",
-        position:"r10"
+        position:"r8"
     },
     {
         id:4,
@@ -27,7 +27,7 @@ const electricity = [
         id:5,
         link:"../images/card-electricity/lampes-electricite-lumiere-montpellier.jpg",
         alt:"",
-        position:"r8"
+        position:"r10"
     },
     {
         id:6,
@@ -63,7 +63,7 @@ const electricity = [
         id:11,
         link:"../images/card-electricity/travaux-electricite-aimargues-gard.jpg",
         alt:"",
-        position:"r1"
+        position:"r-2"
     },
     {
         id:12,
