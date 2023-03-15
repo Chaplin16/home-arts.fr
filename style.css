@@ -385,7 +385,11 @@ footer a:hover {
 }
 
 .plumbing {
-  width: 80%;
+  margin: auto;
+  width: 90%;
+}
+.plumbing h2 {
+  max-width: 80%;
   margin: auto;
 }
 

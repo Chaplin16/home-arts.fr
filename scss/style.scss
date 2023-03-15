@@ -307,9 +307,13 @@ footer{
 
 //PAGE PLUMBING.HTML
 .plumbing{
-    width: 80%;
     margin:auto;
-}
+    width: 90%;
+    h2{
+        max-width:80%;
+        margin: auto;
+    }
+}             
 
 #galleryPlumbing{
     row-gap: 15px;
@@ -328,8 +332,6 @@ footer{
         }
     }
 }
-
-
 
 //PAGE LAW.HTML
 .displayTitle{
