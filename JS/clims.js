@@ -1,37 +1,37 @@
 clims = [
     {
         id:1,
-        link:"../images/clim/reparation-unite-climatiseur-gard-herault.jpg",
+        link:"images/clim/reparation-unite-climatiseur-gard-herault.jpg",
         alt:""
     },
     {
         id:1,
-        link:"../images/clim/pompe-chaleur-exterieur-maison-aimargues.jpg",
+        link:"images/clim/pompe-chaleur-exterieur-maison-aimargues.jpg",
         alt:""
     },
     {
         id:1,
-        link:"../images/clim/climatisation-ventilation-aimargues-herault.png",
+        link:"images/clim/climatisation-ventilation-aimargues-herault.png",
         alt:""
     },
     {
         id:1,
-        link:"../images/clim/deux-climatiseurs-reversibles-installation-gard-herault.jpg",
+        link:"images/clim/deux-climatiseurs-reversibles-installation-gard-herault.jpg",
         alt:""
     },
     {
         id:1,
-        link:"../images/clim/installation-clim-plafond-aimargues-gard.jpg",
+        link:"images/clim/installation-clim-plafond-aimargues-gard.jpg",
         alt:""
     },
     {
         id:1,
-        link:"../images/clim/unite-exterieure-climatisation-aimargues.jpg",
+        link:"images/clim/unite-exterieure-climatisation-aimargues.jpg",
         alt:""
     },
     {
         id:1,
-        link:"../images/clim/climatiseur-air-froid-chaud-reversible-aimargues.jpg",
+        link:"images/clim/climatiseur-air-froid-chaud-reversible-aimargues.jpg",
         alt:""
     }
 ]
