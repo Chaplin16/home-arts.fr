@@ -176,6 +176,7 @@ main{
         row-gap:2rem;
         max-width:1000px;
         margin:auto;
+        margin-bottom: 7rem;
         p{
         font-weight:700; 
             &:first-of-type{
@@ -183,22 +184,25 @@ main{
                 right:5%;
                 animation: moveTemperatureRight 1500ms  ease-in-out;
                 animation-delay: 3500ms;
+                animation-iteration-count: 2;
             }
             &:nth-of-type(2){
                 top:15rem;
                 left:5%;
                 animation: moveTemperatureLeft 1500ms ease-in-out;
                 animation-delay: 3500ms;
+                animation-iteration-count: 2;
             }
             &:last-child{
                 bottom: -8rem;    
                 animation: changeColor 1500ms ease-in-out;
                 animation-delay: 3500ms;
+                animation-iteration-count: 5;
             }
         }
     } 
     .carouselClim {
-        margin-top:8rem;
+
         overflow: hidden;;
         .draggable{
         padding:0!important;

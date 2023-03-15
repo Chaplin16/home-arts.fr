@@ -258,6 +258,7 @@ main .temperature {
   row-gap: 2rem;
   max-width: 1000px;
   margin: auto;
+  margin-bottom: 7rem;
 }
 main .temperature p {
   font-weight: 700;
@@ -267,20 +268,22 @@ main .temperature p:first-of-type {
   right: 5%;
   animation: moveTemperatureRight 1500ms ease-in-out;
   animation-delay: 3500ms;
+  animation-iteration-count: 2;
 }
 main .temperature p:nth-of-type(2) {
   top: 15rem;
   left: 5%;
   animation: moveTemperatureLeft 1500ms ease-in-out;
   animation-delay: 3500ms;
+  animation-iteration-count: 2;
 }
 main .temperature p:last-child {
   bottom: -8rem;
   animation: changeColor 1500ms ease-in-out;
   animation-delay: 3500ms;
+  animation-iteration-count: 5;
 }
 main .carouselClim {
-  margin-top: 8rem;
   overflow: hidden;
 }
 main .carouselClim .draggable {
