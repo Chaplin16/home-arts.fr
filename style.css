@@ -384,6 +384,27 @@ footer a:hover {
   z-index: 3;
 }
 
+.plumbing {
+  width: 80%;
+  margin: auto;
+}
+
+#galleryPlumbing {
+  row-gap: 15px;
+  column-gap: 15px;
+}
+#galleryPlumbing img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-out;
+  border-radius: 5px;
+}
+#galleryPlumbing img:hover {
+  filter: brightness(0.5);
+  transform: scale(1.05);
+}
+
 .displayTitle {
   animation: displayTitle 500ms ease-in-out;
 }
@@ -395,6 +416,10 @@ footer a:hover {
   .gallery li img {
     width: 250px !important;
   }
+  #galleryPlumbing {
+    max-width: 600px;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 769px) {
   .text {
@@ -404,6 +429,9 @@ footer a:hover {
     font-size: 1.3rem;
   }
   .footer {
+    flex-direction: row !important;
+    align-items: start !important;
+    column-gap: 2rem;
     max-width: 800px;
     margin: auto;
     font-size: 15px;
@@ -420,21 +448,33 @@ footer a:hover {
     height: 17rem !important;
     object-fit: cover;
   }
-  .footer {
-    flex-direction: row !important;
-    align-items: start !important;
-    column-gap: 2rem;
-  }
   .electricity p {
     font-size: 1.3rem;
   }
   .electricity .gallery li img {
     width: 320px !important;
   }
+  .plumbing {
+    max-width: 1200px !important;
+  }
+  .plumbing p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 1.3rem;
+  }
+  .plumbing #galleryPlumbing {
+    max-width: 1200px;
+  }
+  .plumbing #galleryPlumbing img {
+    width: 250px;
+  }
 }
 @media screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: end;
+  }
+  .plumbing img {
+    width: 350px !important;
   }
 }
 
