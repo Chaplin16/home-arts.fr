@@ -237,11 +237,11 @@ footer{
 }
  
 //PAGE ELECTRICITY
-.electricity {
+.electricity, .plumbery {
     background-color: #ebe9e9;
     h1{
         animation: displayTitle 2000ms ease;
-        max-width:1000px;   
+        max-width:1000px;      
         & ~ p{
             max-width:1000px;
             margin:auto;

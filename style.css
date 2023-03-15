@@ -316,21 +316,21 @@ footer a:hover {
   color: #e9c759 !important;
 }
 
-.electricity {
+.electricity, .plumbery {
   background-color: #ebe9e9;
 }
-.electricity h1 {
+.electricity h1, .plumbery h1 {
   animation: displayTitle 2000ms ease;
   max-width: 1000px;
 }
-.electricity h1 ~ p {
+.electricity h1 ~ p, .plumbery h1 ~ p {
   max-width: 1000px;
   margin: auto;
 }
-.electricity h2 {
+.electricity h2, .plumbery h2 {
   color: #18324c;
 }
-.electricity .gallery {
+.electricity .gallery, .plumbery .gallery {
   display: flex;
   flex-wrap: wrap;
   row-gap: 30px !important;
@@ -338,7 +338,7 @@ footer a:hover {
   max-width: 1250px;
   margin: auto;
 }
-.electricity .gallery li img {
+.electricity .gallery li img, .plumbery .gallery li img {
   padding: 10px 10px 25px 10px;
   background: linear-gradient(rgb(41, 40, 40), rgb(151, 225, 243));
   border: 1px solid rgb(73, 71, 71);
@@ -347,7 +347,7 @@ footer a:hover {
   height: auto;
   position: relative;
 }
-.electricity .gallery li img:hover {
+.electricity .gallery li img:hover, .plumbery .gallery li img:hover {
   background: linear-gradient(rgb(151, 225, 243), rgb(41, 40, 40));
 }
 
