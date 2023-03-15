@@ -127,14 +127,18 @@ main{
             padding: 0.8rem;
         }
     } 
-    .sales{
-        
+    .sales{     
         h3{
-        max-width:430px;
-        margin:auto;
-        margin-bottom:3rem;
-        border: 6px ridge $color-blue-dark;  
-        font-size:1.1rem;
+            overflow: hidden;
+            white-space: nowrap; 
+            margin:0 auto;
+            letter-spacing: .15em;
+            animation: typing 3.5s steps(40, end), blink-caret .75s step-end 10;
+            max-width:480px;
+            margin-bottom:3rem;
+            border: 6px ridge $color-blue-dark ;  
+            font-size:0.9rem;
+            background-color:rgb(233, 241, 248)
         }
     }
     .text {
@@ -166,7 +170,6 @@ main{
         display: inline; 
         font-weight: 700;
         margin-left:10%;
-    
         &::before{
             content: "";
             position: absolute;
@@ -348,7 +351,6 @@ footer{
 }
 
 @media screen and (min-width:450px) {
-
     #galleryPlumbing img{
         width:130px;
     }
@@ -364,6 +366,10 @@ footer{
     #galleryPlumbing{
         max-width: 600px;
         margin:auto;
+    }
+    .sales h3{
+        font-size:1.18rem!important;
+        max-width:520px!important;
     }
 }
 

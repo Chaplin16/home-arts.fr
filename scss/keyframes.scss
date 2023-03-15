@@ -39,6 +39,16 @@
   100% { transform: translateY(0px) }
 }
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+ 
+@keyframes blink-caret {
+    from, to { border-color: $color-blue }
+    50% { border-color: $color-blue-dark; }
+}
+
 @keyframes underlineH3{
   0% {
       width: 0;

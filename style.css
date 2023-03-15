@@ -41,6 +41,22 @@
     transform: translateY(0px);
   }
 }
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: #27b6c6;
+  }
+  50% {
+    border-color: #18324c;
+  }
+}
 @keyframes underlineH3 {
   0% {
     width: 0;
@@ -217,11 +233,16 @@ main section > div img {
   padding: 0.8rem;
 }
 main .sales h3 {
-  max-width: 430px;
-  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end 10;
+  max-width: 480px;
   margin-bottom: 3rem;
   border: 6px ridge #18324c;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  background-color: rgb(233, 241, 248);
 }
 main .text img {
   margin-bottom: 2rem;
@@ -436,6 +457,10 @@ footer a:hover {
   #galleryPlumbing {
     max-width: 600px;
     margin: auto;
+  }
+  .sales h3 {
+    font-size: 1.18rem !important;
+    max-width: 520px !important;
   }
 }
 @media screen and (min-width: 769px) {
