@@ -26,7 +26,7 @@ header{
     .nav-animation{
         animation: turnLogo 3000ms ease-in-out;
         animation-delay: 500ms;
-        animation-iteration-count: 2;
+
     }
     nav{
         padding: 0!important;
@@ -107,7 +107,7 @@ header{
                 border-bottom: 3px solid red;
             }
         }
-      }
+    }
 }
 
 main{
@@ -217,9 +217,7 @@ footer{
         ~ img.turn{
             animation: turnLogo 3500ms  ease-in-out;
             animation-delay: 500ms;
-            animation-iteration-count: 3;
-            
-            
+            animation-iteration-count: 2; 
         }
     }
 
