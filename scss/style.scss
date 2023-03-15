@@ -127,6 +127,16 @@ main{
             padding: 0.8rem;
         }
     } 
+    .sales{
+        
+        h3{
+        max-width:430px;
+        margin:auto;
+        margin-bottom:3rem;
+        border: 6px ridge $color-blue-dark;  
+        font-size:1.1rem;
+        }
+    }
     .text {
         img{
             margin-bottom:2rem;
@@ -134,7 +144,7 @@ main{
         }
         &-clim{
             rotate: -15deg;
-        }
+        } 
     }
     
     .jumpImg{
@@ -323,7 +333,6 @@ footer{
         height: auto;
         object-fit: cover;
 		transition: transform 0.3s ease-out;
-
         overflow: hidden;
         box-shadow: 3px 3px 8px $color-blue-dark;
         &:hover{
@@ -336,6 +345,13 @@ footer{
 //PAGE LAW.HTML
 .displayTitle{
     animation: displayTitle 500ms ease-in-out;
+}
+
+@media screen and (min-width:450px) {
+
+    #galleryPlumbing img{
+        width:130px;
+    }
 }
 
 @media screen and (min-width:515px) {
@@ -410,12 +426,19 @@ footer{
     } 
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1000px) {
+    .plumbing{
+        & img{
+            width:280px!important;    
+        }
+    }
+}
+
+@media screen and (min-width:1300px) {
     .plumbing{
         & img{
             width:320px!important;    
         }
     }
 }
-
 
