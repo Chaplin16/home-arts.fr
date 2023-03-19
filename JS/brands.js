@@ -2,7 +2,7 @@ const brands = [
     {
         id:1,
         link:"images/marque-clim/daikin-climatisation-aimargues-gard-herault.png",
-        alt:"climatisation DAIKIN posé par HOME ART à Aimargues dans le Gard et l'Hérault"
+        alt:"climatisation DAIKIN posée par HOME ART à Aimargues dans le Gard et l'Hérault"
     },
     {
         id:2,
@@ -12,7 +12,7 @@ const brands = [
     {
         id:3,
         link:"images/marque-clim/lg-climatiseur-aimargues-gard-herault.png",
-        alt:"climatisation LG dépannage par HOME ART, Gard, Herault, professionnel de métier"
+        alt:"climatisation LG dépannage par HOME ART, Gard, Herault"
     },
     {
         id:4,

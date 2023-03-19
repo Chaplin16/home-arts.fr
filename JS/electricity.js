@@ -14,7 +14,7 @@ const electricity = [
     {
         id:3,
         link:"../images/card-electricity/pose-prise-courant-electricité-gard-herault.jpg",
-        alt:"chantier d'electricité avec pose de prises de courant à Lunel",
+        alt:"chantier d'électricité avec pose de prises de courant à Lunel",
         position:"r8"
     },
     {
@@ -38,7 +38,7 @@ const electricity = [
     {
         id:7,
         link:"../images/card-electricity/testeur-electricite-climatisation.jpg",
-        alt:"testeur électrique pour la fiabilité des installation de Home Art",
+        alt:"testeur électrique pour la fiabilité des installations de Home Art",
         position:"r10"
     },
     {
@@ -50,7 +50,7 @@ const electricity = [
     {
         id:9,
         link:"../images/card-electricity/prise-courant-raccordement-montpellier.jpg",
-        alt:"Pose et réparation de ces nouvelles prises de courant à Montpellier",
+        alt:"Pose et réparation de prises de courant à Montpellier",
         position:"r-8"
     },
     {
@@ -68,7 +68,7 @@ const electricity = [
     {
         id:12,
         link:"../images/card-electricity/raccordement-courant-electricite-aimargues.jpg",
-        alt:"Raccordement du reseau electrique dans une maison à Aimargues",
+        alt:"Raccordement du réseau électrique dans une maison à Aimargues",
         position:"r8"
     }
 ]

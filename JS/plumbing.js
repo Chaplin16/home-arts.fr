@@ -17,7 +17,7 @@ const plumbing = [
     {
         alt:4,
         link:"../images/card-plumbing/depannage-reparation-installation-plomberie-baignoire.jpg",
-        alt:"reparation d'une fuite sur une baignoire à Mauguio dans l'hérault"
+        alt:"réparation d'une fuite sur une baignoire à Mauguio dans l'hérault"
     },
     {
         alt:5,
@@ -32,7 +32,7 @@ const plumbing = [
     {
         alt:7,
         link:"../images/card-plumbing/douche-plomberie-aimargues.jpg",
-        alt:"instalaltion et raccord pour une douche par Home Art"
+        alt:"installation et raccord pour une douche par Home Art"
     },
     {
         alt:8,
@@ -42,6 +42,6 @@ const plumbing = [
     {
         alt:9,
         link:"../images/card-plumbing/installation-plomberie-baignoire-gard-herault.jpg",
-        alt:"creation de tout le reseau de plomberie pour l installation d une baignoire à Montpellier"
+        alt:"création de tout le réseau de plomberie pour l installation d une baignoire à Montpellier"
     }
 ]
